@@ -1,3 +1,7 @@
+https://travis-ci.org/Eawag-SWW/SanitationSystemBuilder.jl.svg?branch=master
+
+[![Build Status](https://travis-ci.org/Eawag-SWW/SanitationSystemBuilder.jl.svg?branch=master)](https://travis-ci.org/Eawag-SWW/SanitationSystemBuilder.jl)
+
 # SanitationSystemBuilder
 
 Finds all combination of technologies that result in a valid
@@ -6,8 +10,9 @@ sanitation system.
 
 # Installation
 
-`SanitationSystemBuilder` is installed with the Julia command
-`Pkg.clone()`:
+1. Install [Julia](https://julialang.org/) version 0.6 or newer.
+
+2. Then the `SanitationSystemBuilder` package is installed with the Julia command:
 ```Julia
 Pkg.clone("https://github.com/Eawag-SWW/SanitationSystemBuilder.jl.git")
 ```
@@ -64,4 +69,4 @@ end
 
 In the example each technology is defined manually. For any real
 application the convenience function `importTechFile` should be used
-to import input files created with the _TechAppA_ model.
+to import input files created with the model [TechAppA](https://github.com/Eawag-SWW/TechAppA).
