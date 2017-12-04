@@ -10,7 +10,7 @@ sanitation system.
 SanitationSystemBuilder can then be installed with the Julia command`
 Pkg.clone()`:
 ```Julia
-Pkg.clone("https://gitlab.com/scheidan/SanitationSystemBuilder.jl.git")
+Pkg.clone("https://github.com/Eawag-SWW/SanitationSystemBuilder.jl.git)
 ```
 
 # Usage
