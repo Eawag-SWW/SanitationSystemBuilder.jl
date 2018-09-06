@@ -16,7 +16,7 @@ sanitation system.
 
 # Installation
 
-1. Install [Julia](https://julialang.org/) version 0.6 or newer.
+1. Install [Julia](https://julialang.org/) version 0.6.
 
 2. Then the `SanitationSystemBuilder` package is installed with the Julia command:
 ```Julia
